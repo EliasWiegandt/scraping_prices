@@ -3,7 +3,7 @@ import os
 
 
 def load_names():
-    print(os.getcwd())
+    # print(os.getcwd())
     products = []
     filepath = os.path.join(os.getcwd(), 'products/names.csv')
     with open(filepath) as f:
