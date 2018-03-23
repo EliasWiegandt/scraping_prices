@@ -69,7 +69,6 @@ ROBOTSTXT_OBEY = True
 ITEM_PIPELINES = {
     'pricebot.pipelines.ProductPipeline': 100,
     'pricebot.pipelines.HtmlFilePipeline': 200,
-    'pricebot.pipelines.LinkPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

@@ -13,9 +13,7 @@ echo Activated conda scrapy environment
 
 scrapy crawl bilka_prices
 scrapy crawl elgiganten_prices
-scrapy crawl power_links
 scrapy crawl power_prices
-scrapy crawl punkt1_links
 scrapy crawl punkt1_prices
 scrapy crawl skousen_prices
 scrapy crawl whiteaway_prices
